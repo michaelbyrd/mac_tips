@@ -1,6 +1,18 @@
 == Mac Tips
 
-The aim of this project is to create stack overflow clone that isn’t code specific.  A place to share hotkeys or other navigation tricks that help increase productivity.
+The aim of this project is to create stack overflow clone that isn’t code specific, a place to share hotkeys or other navigation tricks that help increase productivity.
 
 The goal is to help others increase their productivity on OSX computers.  It is important to provide reasoning behind the tips you provide.  There are many approaches to accomplishing any given task on a computer and some approaches might work well for some while others might not.  
 
+Users will be able to create questions, provide other users answers, and write general articles or post.  
+
+The questions or post can be tagged in different categories 
+* system wide navigation
+* text editing
+* hotkeys
+* inline navigation
+* best practices
+* file structure
+* github collaboration
+* system preferences
+* recommended programs

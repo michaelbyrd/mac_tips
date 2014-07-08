@@ -21,6 +21,4 @@ module MacTips
     # config.i18n.default_locale = :de
   end
 
-  config.action_mailer.delivery_method = :postmark
-  config.action_mailer.postmark_settings = { :api_key => "c8b906f8-65e7-4a20-bac2-166268986e3f" }
 end

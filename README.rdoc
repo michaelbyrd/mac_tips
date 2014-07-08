@@ -1,28 +1,18 @@
-== README
+== Mac Tips
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The aim of this project is to create stack overflow clone that isn’t code specific, a place to share hotkeys or other navigation tricks that help increase productivity.
 
-Things you may want to cover:
+The goal is to help others increase their productivity on OSX computers.  It is important to provide reasoning behind the tips you provide.  There are many approaches to accomplishing any given task on a computer and some approaches might work well for some while others might not.  
 
-* Ruby version
+Users will be able to create questions, provide other users answers, and write general articles or post.  
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The questions or post can be tagged in different categories 
+* system wide navigation
+* text editing
+* hotkeys
+* inline navigation
+* best practices
+* file structure
+* github collaboration
+* system preferences
+* recommended programs

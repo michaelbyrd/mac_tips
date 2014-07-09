@@ -58,6 +58,7 @@ gem 'simple_form', "~> 3.0"
 gem 'slim'
 gem 'unicorn', "~> 4.8"
 gem 'devise'
+gem 'carrierwave'
 
 group :production do
   gem 'rails_12factor'

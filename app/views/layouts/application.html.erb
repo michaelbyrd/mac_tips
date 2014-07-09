@@ -6,14 +6,27 @@
 
     <title><%= content_for?(:title) ? yield(:title) : "MacTips" %></title>
 
-    <%= stylesheet_link_tag    "application" %>
+    <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
-  </head>
 
-  <body>
+  </head>
     <%= render 'topbar' %>
+  <body>
     <div class='container'>
+    <% if !flash.empty? %>
+    <div data-alert class="alert-box info radius">
+        <div id="flash">
+        <% flash.keys.each do |k| %>
+            <div class="<%= k %>">
+                <%= flash[k] %>
+            </div>
+        <% end %>
+        </div>
+    <a href="#" class="close">&times;</a>
+    </div>
+    <% end %>
+
       <%= yield %>
       <%= javascript_include_tag "application" %>
     </div>

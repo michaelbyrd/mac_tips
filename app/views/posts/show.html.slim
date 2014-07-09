@@ -1,4 +1,9 @@
-p
-  = @post.title
-p
-  = @post.content
+h1
+  = @post.created_at
+.panel
+  p
+    = @post.user_id
+  p
+    = @post.title
+  p
+    = @post.content

@@ -1,6 +1,12 @@
 h1
-  'Posts
+  'All Posts
 
 .row
   .large-12.columns
     = render :partial => 'posts', :object => @posts
+
+h1
+  'My Posts
+.row
+  .large-12.columns
+    = render :partial => 'posts', :object => current_user.posts

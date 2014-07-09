@@ -1,0 +1,6 @@
+ul.large-block-grid-3.medium-block-grid-2.small-block-grid-1.book-list
+  - posts.each do |post|
+    li.post
+      .psot-info
+        .title = link_to post.title, post
+        = post.content

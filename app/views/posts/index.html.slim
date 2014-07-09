@@ -1,0 +1,14 @@
+h1
+  'Posts
+
+- if current_user
+  = current_user.email
+  = link_to 'log out', destroy_user_session_path, :method => :delete
+- else
+  = link_to 'login', user_session_path
+  = link_to 'sign up', new_user_registration_path
+
+
+.row
+  .large-12.columns
+    = render :partial => 'posts', :object => @posts

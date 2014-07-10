@@ -44,4 +44,6 @@ group :development, :test do
   gem "pry-rails"
   gem 'quiet_assets'
   gem "sprig"
+  gem "rails_best_practices"
+  gem "brakeman"
 end

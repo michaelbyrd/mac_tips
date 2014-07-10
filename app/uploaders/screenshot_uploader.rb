@@ -11,11 +11,11 @@ class ScreenshotUploader < CarrierWave::Uploader::Base
     %w(jpg jpeg gif png)
   end
 
-  def default_url
-    size = case version_name
-           when :thumb then "100x150"
-           else "200x300"
-           end
-    "holder.js/#{size}/text:#{size}/social"
-  end
+  # def default_url
+  #   size = case version_name
+  #          when :thumb then "100x150"
+  #          else "200x300"
+  #          end
+  #   "holder.js/#{size}/text:#{size}/social"
+  # end
 end

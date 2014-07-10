@@ -29,6 +29,7 @@ gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
+gem 'nokogiri'
 
 group :production do
   gem 'rails_12factor'

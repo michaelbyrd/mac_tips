@@ -13,5 +13,5 @@ CarrierWave.configure do |config|
       :aws_access_key_id      => Rails.application.secrets.aws_access_key,
       :aws_secret_access_key  => Rails.application.secrets.aws_secret_key
   }
-  config.fog_directory = 'mac_tips'
+  config.fog_directory = 'mac-tips'
 end

@@ -7,3 +7,5 @@
   = f.label :screenshot
   br
     = f.file_field :screenshot
+    - if @post.screenshot
+      .screenshot = image_tag @post.screenshot.thumb.url

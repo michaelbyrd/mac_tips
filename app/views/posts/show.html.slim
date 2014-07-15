@@ -6,5 +6,8 @@ h1
     = @post.title
   p
     = @post.content
+
+  - if @post.screenshot
+    .screenshot = image_tag @post.screenshot
   p
-    = link_to 'Screenshot', @post.screenshot.url
+    = link_to 'Edit this post', edit_post_path

@@ -5,3 +5,5 @@ ul.large-block-grid-3.medium-block-grid-2.small-block-grid-1.book-list
         .post-info
           .title = link_to post.title, post
           .content = post.content
+          - if post.screenshot
+            .screenshot = image_tag post.screenshot.thumb.url
